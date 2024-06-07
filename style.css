@@ -2,3 +2,120 @@ html {
   height: 100%;
   width: 100%;
 }
+body{
+  background-color: #b65454;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.chalk{
+  font-family: "Pangolin", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 91%;
+
+  float: left;
+}
+
+.box{
+  width: 400px;
+  height: 400px;
+}
+
+.board{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  height: 91%;
+  float: right;
+}
+
+.chalkboard{
+  width: 500px;
+  height: 700px;
+  background-color: #323233;
+  border: 5px solid #c88034;
+}
+
+.navbar{
+  width: 100%;
+  height: 75px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+}
+
+li, a, button{
+  font-family: "Pangolin", cursive;
+  font-weight: 400;
+   font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo{
+  cursor: pointer;
+  order: 3;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+nav{
+  order: 1;
+  margin-left: 35px;
+}
+
+.nav_links{
+  list-style: none;
+}
+
+/* instead up going up they stand side by side */
+.nav_links, li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links, li, a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color: #6F4E37;
+}
+
+.button1{
+  order: 2;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: #323233 ;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
